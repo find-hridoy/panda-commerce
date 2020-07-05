@@ -1,0 +1,29 @@
+.change-bg{
+    background: #fceae8;
+    border-radius: 5px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price-info{
+    color: #ff136f;
+}
+.buy-now-btn{
+    background: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+    padding: 9px 25px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.buy-now-btn:hover{
+    border: 2px solid #ff589b;
+    background: #fff;
+    color: #ff589b;
+}
+.buy-now-btn:focus{
+    border: 2px solid #ff0062;
+    outline: none;
+    color: #fc0060;
+}
