@@ -1,3 +1,7 @@
+.container{
+    margin-bottom: 70px;
+}
+/* ============= Banner Section ============= */
 .change-bg{
     background: #fceae8;
     border-radius: 5px;
@@ -11,19 +15,53 @@
 .buy-now-btn{
     background: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
     padding: 9px 25px;
-    border: 2px solid transparent;
     border-radius: 8px;
+    border: none;
     color: #fff;
     cursor: pointer;
     text-transform: uppercase;
 }
 .buy-now-btn:hover{
-    border: 2px solid #ff589b;
-    background: #fff;
-    color: #ff589b;
+    background: #fd0c68;
 }
 .buy-now-btn:focus{
-    border: 2px solid #ff0062;
     outline: none;
-    color: #fc0060;
+}
+/* ============= Categories Section ============= */
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat-1{
+    background: linear-gradient(to right, #F19330, #F4C91C);
+}
+.cat-2{
+    background: linear-gradient(to right, #ED3079, #EF3881);
+}
+.cat-3{
+    background: linear-gradient(to right, #4377FF, #3811F9);
+}
+.categories h1{
+    color: #fff;
+}
+.categories img{
+    width: 130px;
+}
+/* ============= Shoes, Backpack Section ============= */
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    border-top: none;
+}
+/* ============= Contact Section ============= */
+.bg-change{
+    background: #fceae8;
+    height: 300px;
+    border-radius: 5px;
+}
+.bg-change h6{
+    color: gray;
 }
